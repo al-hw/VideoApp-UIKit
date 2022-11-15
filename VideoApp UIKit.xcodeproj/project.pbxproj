@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		CE30B213290FE6E900E21899 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B212290FE6E900E21899 /* AppDelegate.swift */; };
 		CE30B215290FE6E900E21899 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B214290FE6E900E21899 /* SceneDelegate.swift */; };
-		CE30B217290FE6E900E21899 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B216290FE6E900E21899 /* ViewController.swift */; };
-		CE30B21A290FE6E900E21899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE30B218290FE6E900E21899 /* Main.storyboard */; };
+		CE30B217290FE6E900E21899 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B216290FE6E900E21899 /* MainTabBarViewController.swift */; };
 		CE30B21C290FE6EB00E21899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE30B21B290FE6EB00E21899 /* Assets.xcassets */; };
 		CE30B21F290FE6EB00E21899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE30B21D290FE6EB00E21899 /* LaunchScreen.storyboard */; };
+		CE30B228290FEA2200E21899 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B227290FEA2200E21899 /* HomeViewController.swift */; };
+		CE30B22A290FEA5400E21899 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B229290FEA5400E21899 /* UpcomingViewController.swift */; };
+		CE30B22C290FEA9100E21899 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B22B290FEA9100E21899 /* SearchViewController.swift */; };
+		CE30B22E290FEAB900E21899 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B22D290FEAB900E21899 /* DownloadsViewController.swift */; };
+		CE30B235290FF22800E21899 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B234290FF22800E21899 /* CollectionViewTableViewCell.swift */; };
+		CE30B237291054D400E21899 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B236291054D400E21899 /* HeroHeaderUIView.swift */; };
+		CE30B2392911860800E21899 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B2382911860800E21899 /* APICaller.swift */; };
+		CE30B23B2911A26900E21899 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B23A2911A26900E21899 /* Title.swift */; };
+		CE30B23D2911AA5600E21899 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B23C2911AA5600E21899 /* Extensions.swift */; };
+		CE30B2412911B47A00E21899 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE30B2402911B47A00E21899 /* TitleCollectionViewCell.swift */; };
+		CE30B2442911B63800E21899 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = CE30B2432911B63800E21899 /* SDWebImage */; };
+		CE30B2462911B63800E21899 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE30B2452911B63800E21899 /* SDWebImageMapKit */; };
+		CE443F8A2912BAEC00D5B061 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE443F892912BAEC00D5B061 /* TitleTableViewCell.swift */; };
+		CE443F8C2912E7C700D5B061 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE443F8B2912E7C700D5B061 /* TitleViewModel.swift */; };
+		CE443F8E2913D79100D5B061 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE443F8D2913D79100D5B061 /* SearchResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE30B20F290FE6E900E21899 /* VideoApp UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VideoApp UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE30B212290FE6E900E21899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE30B214290FE6E900E21899 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE30B216290FE6E900E21899 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE30B219290FE6E900E21899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE30B216290FE6E900E21899 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		CE30B21B290FE6EB00E21899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE30B21E290FE6EB00E21899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE30B220290FE6EB00E21899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE30B227290FEA2200E21899 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CE30B229290FEA5400E21899 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		CE30B22B290FEA9100E21899 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CE30B22D290FEAB900E21899 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		CE30B234290FF22800E21899 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		CE30B236291054D400E21899 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		CE30B2382911860800E21899 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		CE30B23A2911A26900E21899 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		CE30B23C2911AA5600E21899 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE30B2402911B47A00E21899 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE443F892912BAEC00D5B061 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		CE443F8B2912E7C700D5B061 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		CE443F8D2913D79100D5B061 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE30B2462911B63800E21899 /* SDWebImageMapKit in Frameworks */,
+				CE30B2442911B63800E21899 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +84,91 @@
 		CE30B211290FE6E900E21899 /* VideoApp UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				CE30B233290FF1BA00E21899 /* Managers */,
+				CE30B232290FF1A500E21899 /* Resources */,
+				CE30B231290FF17E00E21899 /* Models */,
+				CE30B22F290FF15E00E21899 /* Views */,
+				CE30B230290FF16A00E21899 /* ViewModels */,
+				CE30B226290FE9F800E21899 /* Controllers */,
 				CE30B212290FE6E900E21899 /* AppDelegate.swift */,
 				CE30B214290FE6E900E21899 /* SceneDelegate.swift */,
-				CE30B216290FE6E900E21899 /* ViewController.swift */,
-				CE30B218290FE6E900E21899 /* Main.storyboard */,
+				CE30B216290FE6E900E21899 /* MainTabBarViewController.swift */,
 				CE30B21B290FE6EB00E21899 /* Assets.xcassets */,
 				CE30B21D290FE6EB00E21899 /* LaunchScreen.storyboard */,
 				CE30B220290FE6EB00E21899 /* Info.plist */,
 			);
 			path = "VideoApp UIKit";
+			sourceTree = "<group>";
+		};
+		CE30B226290FE9F800E21899 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE443F902913D7E700D5B061 /* General */,
+				CE443F8F2913D7D300D5B061 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE30B22F290FF15E00E21899 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE30B234290FF22800E21899 /* CollectionViewTableViewCell.swift */,
+				CE30B236291054D400E21899 /* HeroHeaderUIView.swift */,
+				CE30B2402911B47A00E21899 /* TitleCollectionViewCell.swift */,
+				CE443F892912BAEC00D5B061 /* TitleTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE30B230290FF16A00E21899 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE443F8B2912E7C700D5B061 /* TitleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE30B231290FF17E00E21899 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE30B23A2911A26900E21899 /* Title.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE30B232290FF1A500E21899 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE30B23C2911AA5600E21899 /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE30B233290FF1BA00E21899 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CE30B2382911860800E21899 /* APICaller.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CE443F8F2913D7D300D5B061 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CE30B227290FEA2200E21899 /* HomeViewController.swift */,
+				CE30B229290FEA5400E21899 /* UpcomingViewController.swift */,
+				CE30B22B290FEA9100E21899 /* SearchViewController.swift */,
+				CE30B22D290FEAB900E21899 /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CE443F902913D7E700D5B061 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				CE443F8D2913D79100D5B061 /* SearchResultsViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +187,10 @@
 			dependencies = (
 			);
 			name = "VideoApp UIKit";
+			packageProductDependencies = (
+				CE30B2432911B63800E21899 /* SDWebImage */,
+				CE30B2452911B63800E21899 /* SDWebImageMapKit */,
+			);
 			productName = "VideoApp UIKit";
 			productReference = CE30B20F290FE6E900E21899 /* VideoApp UIKit.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +219,9 @@
 				Base,
 			);
 			mainGroup = CE30B206290FE6E900E21899;
+			packageReferences = (
+				CE30B2422911B63800E21899 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = CE30B210290FE6E900E21899 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +238,6 @@
 			files = (
 				CE30B21F290FE6EB00E21899 /* LaunchScreen.storyboard in Resources */,
 				CE30B21C290FE6EB00E21899 /* Assets.xcassets in Resources */,
-				CE30B21A290FE6E900E21899 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +248,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE30B217290FE6E900E21899 /* ViewController.swift in Sources */,
+				CE443F8A2912BAEC00D5B061 /* TitleTableViewCell.swift in Sources */,
+				CE30B22C290FEA9100E21899 /* SearchViewController.swift in Sources */,
+				CE30B2412911B47A00E21899 /* TitleCollectionViewCell.swift in Sources */,
+				CE30B217290FE6E900E21899 /* MainTabBarViewController.swift in Sources */,
+				CE30B235290FF22800E21899 /* CollectionViewTableViewCell.swift in Sources */,
+				CE30B2392911860800E21899 /* APICaller.swift in Sources */,
+				CE30B237291054D400E21899 /* HeroHeaderUIView.swift in Sources */,
+				CE30B22E290FEAB900E21899 /* DownloadsViewController.swift in Sources */,
 				CE30B213290FE6E900E21899 /* AppDelegate.swift in Sources */,
+				CE443F8E2913D79100D5B061 /* SearchResultsViewController.swift in Sources */,
+				CE30B23D2911AA5600E21899 /* Extensions.swift in Sources */,
 				CE30B215290FE6E900E21899 /* SceneDelegate.swift in Sources */,
+				CE30B22A290FEA5400E21899 /* UpcomingViewController.swift in Sources */,
+				CE30B23B2911A26900E21899 /* Title.swift in Sources */,
+				CE30B228290FEA2200E21899 /* HomeViewController.swift in Sources */,
+				CE443F8C2912E7C700D5B061 /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE30B218290FE6E900E21899 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE30B219290FE6E900E21899 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE30B21D290FE6EB00E21899 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +407,6 @@
 				INFOPLIST_FILE = "VideoApp UIKit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +434,6 @@
 				INFOPLIST_FILE = "VideoApp UIKit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +471,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE30B2422911B63800E21899 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE30B2432911B63800E21899 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE30B2422911B63800E21899 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		CE30B2452911B63800E21899 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE30B2422911B63800E21899 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE30B207290FE6E900E21899 /* Project object */;
 }
