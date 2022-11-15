@@ -27,6 +27,7 @@
 		CE443F8A2912BAEC00D5B061 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE443F892912BAEC00D5B061 /* TitleTableViewCell.swift */; };
 		CE443F8C2912E7C700D5B061 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE443F8B2912E7C700D5B061 /* TitleViewModel.swift */; };
 		CE443F8E2913D79100D5B061 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE443F8D2913D79100D5B061 /* SearchResultsViewController.swift */; };
+		CEEDC3FB29239A28000645D0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CEEDC3FA29239A28000645D0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		CE443F892912BAEC00D5B061 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		CE443F8B2912E7C700D5B061 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		CE443F8D2913D79100D5B061 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		CEEDC3FA29239A28000645D0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				CE30B21B290FE6EB00E21899 /* Assets.xcassets */,
 				CE30B21D290FE6EB00E21899 /* LaunchScreen.storyboard */,
 				CE30B220290FE6EB00E21899 /* Info.plist */,
+				CEEDC3FA29239A28000645D0 /* README.md */,
 			);
 			path = "VideoApp UIKit";
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEDC3FB29239A28000645D0 /* README.md in Resources */,
 				CE30B21F290FE6EB00E21899 /* LaunchScreen.storyboard in Resources */,
 				CE30B21C290FE6EB00E21899 /* Assets.xcassets in Resources */,
 			);
